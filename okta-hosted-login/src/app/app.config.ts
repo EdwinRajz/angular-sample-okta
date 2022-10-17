@@ -7,7 +7,7 @@ export default {
     redirectUri: '/login/callback',
     scopes: ['openid', 'profile', 'email'],
     pkce: true,
-  postLogoutRedirectUri: window.location.origin,
+    postLogoutRedirectUri: window.location.origin,
     testing: {
       disableHttpsCheck: `${OKTA_TESTING_DISABLEHTTPSCHECK}`
     }
